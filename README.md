@@ -3,6 +3,8 @@
 
 this project implements and evaluates four CART-based supervised learning algorithms to predict financial market returns.
 
+used Istanbul Stock Exchange data to predict MSCI Emerging Markets index returns.
+
 the dataset i used can be found in the data folder (:
 
 ```python
@@ -27,12 +29,10 @@ learner = it.InsaneLearner(verbose=False)
 ```
 
 
-Experiments to run:
+Experiments I ran:
 1. Analyze overfitting in DTLearner by varying leaf_size
 2. Evaluate if bagging reduces overfitting 
 3. Compare DTLearner vs RTLearner quantitatively
-
-Use Istanbul Stock Exchange data to predict MSCI Emerging Markets index returns.
 
 Performance targets:
 - DTLearner tests: <10 seconds each
@@ -41,3 +41,5 @@ Performance targets:
 - InsaneLearner: <10 seconds
 
 Generate charts as .png files. 
+
+there's a tester file as well 
