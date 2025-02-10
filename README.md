@@ -1,6 +1,9 @@
 
 ## Assess Learners: ML Trading System
 
+this project implements and evaluates four CART-based supervised learning algorithms to predict financial market returns.
+
+the dataset i used can be found in the data folder (:
 
 ```python
 import DTLearner as dt
