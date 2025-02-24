@@ -1,8 +1,7 @@
-## ML-Driven Trading System: Ensemble Learning Approach
+
 
 Implementation of ensemble decision trees for financial return prediction, analyzing model behaviors in overfitting regimes. Leverages bootstrap aggregation and randomized feature selection to improve generalization.
 
-### Key Components
 
 **Learner Implementations**:
 - `DTLearner`: Decision tree with correlation-based feature selection
